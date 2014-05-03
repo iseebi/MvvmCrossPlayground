@@ -1,0 +1,3 @@
+[submodule "MvvmCross"]
+	path = MvvmCross
+	url = git@github.com:iseebi/MvvmCross.git
