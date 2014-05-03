@@ -52,6 +52,8 @@
     <Compile Include="Setup.cs" />
     <Compile Include="SplashScreen.cs" />
     <Compile Include="Views\FirstView.cs" />
+    <Compile Include="Bootstrap\DownloadCachePluginBootstrap.cs" />
+    <Compile Include="Bootstrap\FilePluginBootstrap.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -129,5 +131,6 @@
     <Folder Include="Views\" />
     <Folder Include="Resources\Drawable-xhdpi\" />
     <Folder Include="Resources\Drawable-mdpi\" />
+    <Folder Include="Bootstrap\" />
   </ItemGroup>
 </Project>
