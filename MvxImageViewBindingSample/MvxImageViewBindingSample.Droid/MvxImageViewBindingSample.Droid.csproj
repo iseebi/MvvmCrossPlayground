@@ -66,6 +66,8 @@
     <AndroidResource Include="Resources\Layout\SplashScreen.axml" />
     <AndroidResource Include="Resources\Values\MvxBindingAttributes.xml" />
     <AndroidResource Include="Resources\Values\SplashStyle.xml" />
+    <AndroidResource Include="Resources\Drawable-xhdpi\pic_empty.png" />
+    <AndroidResource Include="Resources\Drawable-mdpi\pic_empty.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
@@ -125,5 +127,7 @@
   <ItemGroup>
     <Folder Include="Resources\Layout\" />
     <Folder Include="Views\" />
+    <Folder Include="Resources\Drawable-xhdpi\" />
+    <Folder Include="Resources\Drawable-mdpi\" />
   </ItemGroup>
 </Project>
