@@ -396,6 +396,6 @@ Global
 		{59452E25-103C-4677-AB2A-E0D33B9FBDDA} = {B9EE8F26-D9B2-4DED-9D52-6AE7D19CD9B6}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = MvxImageViewBindingSample.Core\MvxImageViewBindingSample.Core.csproj
+		StartupItem = MvxImageViewBindingSample.Touch\MvxImageViewBindingSample.Touch.csproj
 	EndGlobalSection
 EndGlobal
