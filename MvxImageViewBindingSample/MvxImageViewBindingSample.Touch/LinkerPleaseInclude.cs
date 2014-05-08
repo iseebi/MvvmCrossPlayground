@@ -56,6 +56,8 @@ namespace MvxImageViewBindingSample.Touch
         {
             slider.Value = slider.Value + 1;
             slider.ValueChanged += (sender, args) => { slider.Value = 1; };
+            slider.ValueChanged += (sender, args) => { slider.MinValue = 1; };
+            slider.ValueChanged += (sender, args) => { slider.MaxValue = 1; };
         }
 
         public void Include(UIProgressView progress)
