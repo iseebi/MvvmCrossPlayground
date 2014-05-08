@@ -40,6 +40,7 @@ namespace MvxImageViewBindingSample.Droid
         public void Include(SeekBar sb)
         {
             sb.ProgressChanged += (sender, args) => sb.Progress = sb.Progress + 1;
+            sb.Max = sb.Max + 1;
         }
 
         public void Include(INotifyCollectionChanged changed)
