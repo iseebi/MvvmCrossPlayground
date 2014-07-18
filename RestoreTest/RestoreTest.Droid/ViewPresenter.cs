@@ -1,15 +1,9 @@
-﻿using System;
-using Cirrious.MvvmCross.Droid.Views;
+﻿using Cirrious.MvvmCross.Droid.Views;
 using Cirrious.MvvmCross.ViewModels;
 
 namespace RestoreTest.Droid
 {
-    public interface IFragmentHost
-    {
-        bool Show(MvxViewModelRequest request);
-    }
-
-    public class Presenter : MvxAndroidViewPresenter
+    public class ViewPresenter : MvxAndroidViewPresenter
     {
         public override void Show(MvxViewModelRequest request)
         {
@@ -21,7 +15,6 @@ namespace RestoreTest.Droid
                     return;
                 }
             }
-
             base.Show(request);
         }
     }

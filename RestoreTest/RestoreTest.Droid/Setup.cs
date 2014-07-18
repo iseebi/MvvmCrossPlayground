@@ -18,7 +18,7 @@ namespace RestoreTest.Droid
 
         protected override Cirrious.MvvmCross.Droid.Views.IMvxAndroidViewPresenter CreateViewPresenter()
         {
-            return new Presenter();
+            return new ViewPresenter();
         }
 		
         protected override IMvxTrace CreateDebugTrace()
