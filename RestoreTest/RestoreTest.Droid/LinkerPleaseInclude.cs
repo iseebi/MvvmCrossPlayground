@@ -3,6 +3,7 @@ using System.Windows.Input;
 using Android.Views;
 using Android.Widget;
 
+#pragma warning disable 0219
 namespace RestoreTest.Droid
 {
     // This class is never actually executed, but when Xamarin linking is enabled it does how to ensure types and properties
@@ -51,3 +52,4 @@ namespace RestoreTest.Droid
         }
     }
 }
+#pragma warning restore 0219

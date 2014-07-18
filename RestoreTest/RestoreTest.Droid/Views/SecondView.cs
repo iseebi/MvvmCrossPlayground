@@ -41,22 +41,11 @@ namespace RestoreTest.Droid.Views
             if (request.ViewModelType == typeof(ThirdViewModel))
             {
                 _thirdViewFragment = new ThirdView();
-
-                var converter = Mvx.Resolve<IMvxNavigationSerializer>();
-                var requestText = converter.Serializer.SerializeObject(request);
-
-                var bundle = new Bundle();
-                bundle.PutString(FragmentBase.ExtrasKey, requestText);
-
-                _thirdViewFragment.Arguments = bundle;
+                _thirdViewFragment.ProvideViewModelRequest(request);
 
                 var trans = FragmentManager.BeginTransaction();
                 trans.Add(Resource.Id.fragmentFrame, _thirdViewFragment);
                 trans.Commit();
-
-//                var loaderService = Mvx.Resolve<IMvxViewModelLoader>();
-//                var viewModel = loaderService.LoadViewModel(request, null /* saved state */);
-//                _thirdViewFragment.ViewModel = viewModel;
 
                 return true;
             }

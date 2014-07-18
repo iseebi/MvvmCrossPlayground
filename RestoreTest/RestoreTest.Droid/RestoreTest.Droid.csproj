@@ -64,6 +64,7 @@
     <Compile Include="Views\SecondView.cs" />
     <Compile Include="Views\Fragments\ThirdView.cs" />
     <Compile Include="Views\Fragments\FragmentBase.cs" />
+    <Compile Include="Views\Fragments\FragmentExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
